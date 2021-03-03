@@ -14,7 +14,7 @@ public class ImprimiendoVariaveisDois {
         String address = "Rua Guilherme Santos número 93 ";
         String telephone = "11 9999 6754";
         System.out.println(name + " domiciliado no endereço: " + address + " e telefone: " + telephone + "," +
-                " não possui nenhuma pendencia " );
+                " não possui nenhuma pendencia ");
 
     }
 }
