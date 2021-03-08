@@ -18,5 +18,9 @@ public class ControleFluxoQuatro {
         do{
             System.out.println("Dentro do do while");
         }while(contador < 10);
+        //i é uma variável local
+        for(int i = 0; i < 10; i++){
+            System.out.println("O valor de i é: " + i);
+        }
     }
 }
