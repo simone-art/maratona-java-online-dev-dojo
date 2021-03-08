@@ -1,10 +1,12 @@
 public class ControlFluxoDois {
     public static void main(String[] args) {
-        int idade = 16;
+        int idade = 25;
+        String status;
         if(idade >= 18){
-            System.out.println("Você é adulto");
+            status = "Você é adulto";
         }else{
-            System.out.println("Você não é adulto");
+            status = "Você não é adulto";
         }
+        System.out.println(status);
     }
 }
