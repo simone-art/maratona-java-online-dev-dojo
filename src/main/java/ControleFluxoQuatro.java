@@ -6,11 +6,13 @@ public class ControleFluxoQuatro {
         While precisa de um valor booleano
         Se não colocar a variável++, o while entra num loop infinito
         e deve estar dentro do bloco de instrução;
+        Se usar o contador++, o programa imprime do 0 ao 9.
+        Se usar o ++contador, o programa imprime do 1 ao 10.
          */
         int contador = 0;
         while (contador < 10){
-            System.out.println(contador);
-            contador++;
+            System.out.println(++contador);
+            //contador++;
         }
     }
 }
