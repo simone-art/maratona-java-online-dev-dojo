@@ -8,11 +8,15 @@ public class ControleFluxoQuatro {
         e deve estar dentro do bloco de instrução;
         Se usar o contador++, o programa imprime do 0 ao 9.
         Se usar o ++contador, o programa imprime do 1 ao 10.
+        Do While: Executa uma vez, independentemente que seja verdadeiro o falso
          */
-        int contador = 0;
+        int contador = 11;
         while (contador < 10){
             System.out.println(++contador);
             //contador++;
         }
+        do{
+            System.out.println("Dentro do do while");
+        }while(contador < 10);
     }
 }
