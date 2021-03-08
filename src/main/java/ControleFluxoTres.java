@@ -28,5 +28,18 @@ public class ControleFluxoTres {
                 System.out.println("Sábado");
                 break;
         }
+        //char sexo = 'F';
+        String sexo = "FF";
+        switch (sexo){
+            case "F":
+                System.out.println("Femenino");
+            break;
+            case "M":
+                System.out.println("Masculino");
+            break;
+            default:
+                System.out.println("Opção inválida");
+                break;
+        }
     }
 }
