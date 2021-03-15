@@ -5,8 +5,8 @@ public class ExercicioControleFluxoTres {
         //2.Definir um for
 
         for (int i = 0; i <= 100000; i++) {
-            if (i % 2 == 0) {
-                System.out.println("Este valor é par " + i);
+            if (i % 2 != 0) {
+                System.out.println("Este valor é impar " + i);
             }
         }
     }
