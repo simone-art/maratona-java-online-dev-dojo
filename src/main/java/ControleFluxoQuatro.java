@@ -14,16 +14,19 @@ public class ControleFluxoQuatro {
         //Brreak pode ser usado no switch, do, while e for
          */
         int contador = 11;
-        while (contador < 10){
+        while (contador < 10) {
             System.out.println(++contador);
             //contador++;
         }
-        do{
+        do {
             System.out.println("Dentro do do while");
-        }while(contador < 10);
+        } while (contador < 10);
         //i é uma variável local
-        for(int i = 0; i < 10; i++){
+        for (int i = 0; i < 10; i++) {
             System.out.println("O valor de i é: " + i);
+            if (i == 5) {
+                break;
+            }
         }
     }
 }
