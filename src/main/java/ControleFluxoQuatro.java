@@ -9,6 +9,9 @@ public class ControleFluxoQuatro {
         Se usar o contador++, o programa imprime do 0 ao 9.
         Se usar o ++contador, o programa imprime do 1 ao 10.
         Do While: Executa uma vez, independentemente que seja verdadeiro o falso
+        //For se usa quando o tamanho da interação está definida. se sabe
+        //Quantas vezes ser;a executado ese bloco de código
+        //Brreak pode ser usado no switch, do, while e for
          */
         int contador = 11;
         while (contador < 10){
