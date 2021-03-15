@@ -6,8 +6,8 @@ public class ExercicioControleFluxoTres {
 
         int listaNumero = 100000;
         for (int i = 0; i <= listaNumero; i++) {
-            if (i % 2 == 0) {
-                System.out.println("Este valor é par " + i);
+            if (i % 2 != 0) {
+                System.out.println("Este valor é impar " + i);
             }
         }
     }
