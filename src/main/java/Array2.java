@@ -5,10 +5,14 @@ public class Array2 {
         //Usando o char o valor é o unicode se será impreso espaço em branco
         //En booleanos, o valor será false;
         //reference(string) será null; array de objetos é nulo
-        String [] idades = new String[3];
+        String [] nomes = new String[3];
+        nomes [0] = "Maria";
+        nomes [1] = "Rogerio";
+        nomes [2] = "Simone";
+        //for(int i = 0; i < 3; i++)
 
-        System.out.println("Idade 1: " + idades[0]);
-        System.out.println("Idade 2: " + idades[1]);
-        System.out.println("Idade 3: " + idades[2]);
+        System.out.println("Nome 1: " + nomes[0]);
+        System.out.println("Nome 2: " + nomes[1]);
+        System.out.println("Nome 3: " + nomes[2]);
     }
 }
