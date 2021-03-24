@@ -9,9 +9,9 @@ public class Array2 {
         nomes [0] = "Maria";
         nomes [1] = "Rogerio";
         nomes [2] = "Simone";
-        for(int i = 0; i < 3; i++)
-
-        System.out.println("Nomes: " + nomes[i]);
+        for(int i = 0; i < nomes.length; i++) {
+            System.out.println("Nomes: " + nomes[i]);
+        }
 
     }
 }
