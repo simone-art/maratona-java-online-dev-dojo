@@ -1,6 +1,11 @@
 public class Array2 {
     public static void main(String[] args) {
-        int [] idades = new int[3];
+
+        //Usando byte, short, int, long, float, double = 0 / zero valor por padrão
+        //Usando o char o valor é o unicode se será impreso espaço em branco
+        //En booleanos, o valor será false;
+        //reference será null; array de objetos é nulo
+        char [] idades = new char[3];
 
         System.out.println("Idade 1: " + idades[0]);
         System.out.println("Idade 2: " + idades[1]);
