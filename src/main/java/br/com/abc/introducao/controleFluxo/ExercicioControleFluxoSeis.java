@@ -1,3 +1,5 @@
+package br.com.abc.introducao.controleFluxo;
+
 public class ExercicioControleFluxoSeis {
     public static void main(String[] args) {
         //Imprima todos os números pares e impares de 0 até 100000

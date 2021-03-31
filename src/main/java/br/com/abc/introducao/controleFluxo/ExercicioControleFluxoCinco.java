@@ -1,3 +1,5 @@
+package br.com.abc.introducao.controleFluxo;
+
 public class ExercicioControleFluxoCinco {
     //Dado um determinado salário, se o salário foi maior que 4.500,
     //imprima 30% do valor. Senão imprima 15

@@ -1,3 +1,5 @@
+package br.com.abc.introducao.array;
+
 public class Array3 {
     public static void main(String[] args) {
         //3 formas para criar um array em Java

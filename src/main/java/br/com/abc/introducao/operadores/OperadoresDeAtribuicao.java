@@ -1,7 +1,9 @@
+package br.com.abc.introducao.operadores;
+
 public class OperadoresDeAtribuicao {
 
     public static void main(String[] args) {
-        // Operadores de atribuição: =, -=, +=, *=, /=, %=
+        // br.com.abc.introducao.operadores.Operadores de atribuição: =, -=, +=, *=, /=, %=
         //São feitos para poupar linha de código
         int salario = 2000;
         //Para acrescentar mas 1000 reais no salário, o código sería assim:
