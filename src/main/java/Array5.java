@@ -16,6 +16,12 @@ public class Array5 {
                 System.out.println(dias[i][j]);
             }
         }
+        System.out.println("===========================");
+        for(int[] ref : dias){
+            for(int dia : ref){
+                System.out.println(dia);
+            }
+        }
         
     }
 }
