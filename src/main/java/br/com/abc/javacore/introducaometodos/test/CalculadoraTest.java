@@ -8,6 +8,7 @@ public class CalculadoraTest {
         calculadora.somaDoisNumeros();
         calculadora.substracaoDoisNumeros();
         calculadora.multiplicarDoisNumeros(5, 3);
-        calculadora.divideDoisNumeros(25,5);
+        double resultado = calculadora.divideDoisNumeros(25,5);
+        System.out.println("O resultado da divisão e: " + resultado);
     }
 }
