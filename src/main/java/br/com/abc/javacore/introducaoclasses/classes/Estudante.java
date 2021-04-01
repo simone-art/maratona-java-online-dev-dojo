@@ -1,6 +1,4 @@
-package br.com.abc.javacore.introducaoclasses;
-
-import java.net.PortUnreachableException;
+package br.com.abc.javacore.introducaoclasses.classes;
 
 
 //A classe estudante é um molde
