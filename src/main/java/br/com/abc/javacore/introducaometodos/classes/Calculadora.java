@@ -22,4 +22,12 @@ public class Calculadora {
         System.out.println("A multiplicação é: " + resultado);
 
     }
+
+    //Métodos com retorno
+    public double divideDoisNumeros(double num1, double num2){
+        System.out.println("O resultado da divisão é: " + (num1/num2));
+         return num1/num2;
+    }
+
+
 }
