@@ -2,6 +2,7 @@ package br.com.abc.javacore.introducaoclasses.classes;
 
 //Crie os atributos para esta classe: nome, matricula, rg e cpf
 //Crie uma classe de teste para preencher e imprimir os dados desse profesor
+//A matrícula define-se como string e não como int porque algumas podem conter letras
 
 public class Professor {
     public String nome;
