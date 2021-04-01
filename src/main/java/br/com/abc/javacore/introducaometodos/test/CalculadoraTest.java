@@ -7,5 +7,6 @@ public class CalculadoraTest {
         Calculadora calculadora = new Calculadora();
         calculadora.somaDoisNumeros();
         calculadora.substracaoDoisNumeros();
+        calculadora.multiplicarDoisNumeros(5, 3);
     }
 }
